@@ -1,0 +1,58 @@
+{
+  "name": "segment_v1.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.4.5",
+    "express": "^4.17.1",
+    "j": "^1.0.0",
+    "lodash": "^4.17.20",
+    "mysql": "^2.18.1",
+    "node-cmd": "^3.0.0",
+    "node-xlsx": "^0.15.0",
+    "serialize-javascript": "^4.0.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.5.1",
+    "xlsx": "^0.16.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-plugin-router": "^4.4.6",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

@@ -1,0 +1,10 @@
+the	DT	N	NP	O	O
+screen	NN	N	NP	O	T
+is	VB	N	VP	O	O
+good	JJ	Y	NP	C	C
+but	CC	N	OP	O	O
+the	DT	N	NP	O	O
+battery	NN	N	NP	O	T
+is	VB	N	VP	O	O
+terrible	JJ	N	NP	O	O
+
