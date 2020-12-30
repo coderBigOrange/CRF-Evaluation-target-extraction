@@ -15,6 +15,6 @@ First call label.py to label the processed data set, and then divide the labeled
 
 
 ## second part-Introduction to System Development
-we have two brancees, the active branch is all about the system and make pairs 
+we have two brancees, the active branch is all about the system and make pairs.
   we adopted the conventional c/s model for development. The system is designed to process English comment sentences, extract evaluation words and evaluation objects from them and visually present the core content of the comment sentences. The development environment we chose was IDEA, and the development language was JavaScript.
   the front-end page has two text area, input and output. user can enter a comment sentence and click 'start', then the system will process it (like we do above,the system call the funtions and model to generate pairs),finally, the opinion target and opinion word will show in the 'output'.
