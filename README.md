@@ -11,10 +11,10 @@ provide:
 3、Processed dataset
 
 ### process
-First call label.py to label the processed data set, and then divide the labeled data set into a training set and a test set. Input the training set into CRF++0.58 to train the model, then call the trained model to mark the test set, and finally call test.py to test the accuracy, precision, recall, and F1 value of the model.
+First call label.py to label the processed data set, and then divide the labeled data set into a training set and a test set. Input the training set into CRF++0.58 to train the model, then call the trained model to mark the test set, and finally call test.py to test the accuracy, precision, recall, and F1 value of the model. Repeat and choose the model performed best as the final model and then begin to develope a visiual system.
 
 
 ## second part-Introduction to System Development
-choose the model performed best as the final model and then begin to develope a visiual system:
+we have two brancees, the active branch is all about the system and make pairs 
   we adopted the conventional c/s model for development. The system is designed to process English comment sentences, extract evaluation words and evaluation objects from them and visually present the core content of the comment sentences. The development environment we chose was IDEA, and the development language was JavaScript.
   the front-end page has two text area, input and output. user can enter a comment sentence and click 'start', then the system will process it (like we do above,the system call the funtions and model to generate pairs),finally, the opinion target and opinion word will show in the 'output'.
